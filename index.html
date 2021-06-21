@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href="./assets/style.css">
+        <title>Coding Challange Quiz</title>
+    </head>
+    <body >
+        <header class = "parent">
+            <div class = "Highscore">
+                <button>
+                    <a href="./high-score.html"> 
+                        <h2>View High Score</h2>
+                    </a>
+                </button>
+            </div>
+            <div class = "timer">
+                    <h2 class="timeLeft"> Time: <span id="timeRemaining" >0</span> seconds</h2>
+            </div>
+        </header>
+        <main >
+            <section class="quiz" id="wrapper">
+                <h1 >Coding Quiz Challange</h1>
+                <p>Try to keep the following code-related questions 
+                    within the time limit.<br> Keep in mind that incorrect
+                    answers will penalize your score/ time <br>by 10 seconds!
+                </p>
+                <ul id="optionsUl"></ul>
+                <button  class="startQuiz" id="startTime">
+                    <h2>Start Quiz</h2>
+                </button>
+            </section >
+            <section id = "questionsList">
+               
+            </section>
+        </main>
+        <script src="./assets/script.js"></script>
+    </body>
+</html>
